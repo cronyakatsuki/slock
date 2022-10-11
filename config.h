@@ -3,10 +3,10 @@ static const char *user  = "crony";
 static const char *group = "crony";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] = "green",       /* after initialization */
-	[INPUT] = "#005577",    /* during input */
-	[FAILED] = "#CC3333",   /* wrong password */
-	[CAPS] = "red",         /* CapsLock on */
+	[INIT] = "#a6da95",       /* after initialization */
+	[INPUT] = "#8aadf4",    /* during input */
+	[FAILED] = "#ed8796",   /* wrong password */
+	[CAPS] = "#ee99a0",         /* CapsLock on */
 };
 
 /*
